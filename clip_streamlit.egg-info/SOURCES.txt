@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+clip_streamlit/__init__.py
+clip_streamlit/app.py
+clip_streamlit/base.py
+clip_streamlit/version.py
+clip_streamlit.egg-info/PKG-INFO
+clip_streamlit.egg-info/SOURCES.txt
+clip_streamlit.egg-info/dependency_links.txt
+clip_streamlit.egg-info/entry_points.txt
+clip_streamlit.egg-info/requires.txt
+clip_streamlit.egg-info/top_level.txt

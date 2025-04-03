@@ -1,0 +1,3 @@
+streamlit>=1.0.0
+torch>=1.7.0
+Pillow>=8.0.0

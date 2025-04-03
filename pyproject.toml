@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clip-streamlit"
+dynamic = ["version"]
+description = "Zero-shot image classification using CLIP and Streamlit"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+    {name = "smiley-victim", email = "itzmyprivateone@gmail.com"},
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+dependencies = [
+    "streamlit>=1.0.0",
+    "torch>=1.7.0",
+    "Pillow>=8.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/smiley-victim/clip-streamlit"
+Repository = "https://github.com/smiley-victim/clip-streamlit.git"
+
+[project.scripts]
+clip-streamlit = "clip_streamlit.app:run_app"

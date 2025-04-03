@@ -1,0 +1,78 @@
+Metadata-Version: 2.4
+Name: clip-streamlit
+Version: 1.0.0
+Summary: Zero-shot image classification using CLIP and Streamlit
+Home-page: https://github.com/smiley-victim/clip-streamlit
+Author: smiley-victim
+Author-email: smiley-victim <itzmyprivateone@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/smiley-victim/clip-streamlit
+Project-URL: Repository, https://github.com/smiley-victim/clip-streamlit.git
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit>=1.0.0
+Requires-Dist: torch>=1.7.0
+Requires-Dist: Pillow>=8.0.0
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
+# CLIP Streamlit
+
+A Streamlit application for zero-shot image classification using OpenAI's CLIP model.
+
+## Features
+
+- Zero-shot image classification
+- Interactive web interface
+- Support for custom labels
+- Confidence threshold adjustment
+- Visual results with bar charts
+
+## Installation
+
+Simple installation:
+```bash
+pip install clip-streamlit
+```
+
+The package will automatically install CLIP when you first run the application.
+
+## Usage
+
+Run the application:
+```bash
+clip-streamlit
+```
+
+The first time you run it, it will install CLIP if needed.
+
+Or use it in your Python code:
+
+```python
+from clip_streamlit import run_app
+
+run_app()
+```
+
+## Requirements
+
+- Python 3.7+
+- Streamlit
+- PyTorch
+- CLIP
+- Pillow
+
+## License
+
+MIT License

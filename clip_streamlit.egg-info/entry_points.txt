@@ -1,0 +1,2 @@
+[console_scripts]
+clip-streamlit = clip_streamlit.app:run_app
